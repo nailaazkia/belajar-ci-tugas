@@ -114,6 +114,7 @@ Proyek ini adalah aplikasi toko online sederhana berbasis [CodeIgniter 4](https:
 
 ## 🗂️ Struktur Proyek
 
+```
 belajar-ci/
 ├── app/
 │   ├── Config/                → Konfigurasi dasar: routing, database, dll
