@@ -179,6 +179,35 @@ belajar-ci/
 └── README.md                 → Dokumentasi proyek ini
 ```
 
+## 🚀 Deploy ke GitHub
+
+1. **Inisialisasi Git di folder proyek** (jika belum)
+   ```bash
+   git init
+   ```
+
+2. **Tambahkan semua file ke staging**
+   ```bash
+   git add .
+   ```
+
+3. **Commit perubahan awal**
+   ```bash
+   git commit -m "Inisialisasi proyek toko online CI4"
+   ```
+
+4. **Hubungkan ke repository GitHub**  
+   Buat repository di GitHub terlebih dahulu (misal: `https://github.com/username/toko-ci4`)
+   ```bash
+   git remote add origin https://github.com/username/toko-ci4.git
+   ```
+
+5. **Push ke GitHub**
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
+
 ---
 
 ## ✨ Catatan
